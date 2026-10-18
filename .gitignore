@@ -1,0 +1,37 @@
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environnement virtuel
+venv/
+.venv/
+env/
+.env/
+
+# Variables d'environnement (ne jamais versionner la clé API)
+.env
+
+# Modèles entraînés (trop lourds et sensibles pour git)
+app/models/*.pkl
+
+# Cache pytest
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Fichiers générés
+outputs/*
+!outputs/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
